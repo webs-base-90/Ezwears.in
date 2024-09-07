@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+*{
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.imgs1{
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-image: url(acccest/pose1.webp);
+  cursor: pointer;
+}
+
+.imgs2{
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-image: url(acccest/pose2.webp);
+  cursor: pointer;
+}
+
+.sample{
+  object-fit:cover;
+  width: 300px;
+  height: 380px;
+  cursor: pointer;
+  border: 1px solid rgba(255, 234, 213, 0.159);
+  transition:0.3s;
+}
+.sample:hover{
+  border-radius: 20px;
+}
